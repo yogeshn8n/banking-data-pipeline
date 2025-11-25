@@ -1,0 +1,51 @@
+[2025-11-23T19:02:12.274+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-23T19:02:12.307+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_to_snowflake_banking.load_snowflake scheduled__2025-11-23T19:00:00+00:00 [queued]>
+[2025-11-23T19:02:12.314+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_to_snowflake_banking.load_snowflake scheduled__2025-11-23T19:00:00+00:00 [queued]>
+[2025-11-23T19:02:12.315+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2025-11-23T19:02:12.326+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_snowflake> on 2025-11-23 19:00:00+00:00
+[2025-11-23T19:02:12.337+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'minio_to_snowflake_banking', 'load_snowflake', 'scheduled__2025-11-23T19:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/minio_to_snowflake_dags.py', '--cfg-path', '/tmp/tmpc8zsm_h2']
+[2025-11-23T19:02:12.339+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=339) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-23T19:02:12.340+0000] {standard_task_runner.py:91} INFO - Job 12: Subtask load_snowflake
+[2025-11-23T19:02:12.341+0000] {standard_task_runner.py:64} INFO - Started process 353 to run task
+[2025-11-23T19:02:12.415+0000] {task_command.py:426} INFO - Running <TaskInstance: minio_to_snowflake_banking.load_snowflake scheduled__2025-11-23T19:00:00+00:00 [running]> on host 39b871a92752
+[2025-11-23T19:02:12.489+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='minio_to_snowflake_banking' AIRFLOW_CTX_TASK_ID='load_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-11-23T19:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-23T19:00:00+00:00'
+[2025-11-23T19:02:12.491+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-23T19:02:12.513+0000] {connection.py:521} INFO - Snowflake Connector for Python Version: 3.18.0, Python Version: 3.12.4, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-11-23T19:02:12.514+0000] {connection.py:1464} INFO - Connecting to GLOBAL Snowflake domain
+[2025-11-23T19:02:13.199+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-23T19:02:13.200+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/minio_to_snowflake_dags.py", line 74, in load_to_snowflake
+    cur.execute(f"PUT file://{f} @%{table}")
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1134, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 286, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 341, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 217, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002003 (02000): 01c096d6-0208-42cf-0000-000326f24115: SQL compilation error:
+Stage 'BANKING.RAW."%CUSTOMERS"' does not exist or not authorized.
+[2025-11-23T19:02:13.213+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=minio_to_snowflake_banking, task_id=load_snowflake, run_id=scheduled__2025-11-23T19:00:00+00:00, execution_date=20251123T190000, start_date=20251123T190212, end_date=20251123T190213
+[2025-11-23T19:02:13.222+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 12 for task load_snowflake (002003 (02000): 01c096d6-0208-42cf-0000-000326f24115: SQL compilation error:
+Stage 'BANKING.RAW."%CUSTOMERS"' does not exist or not authorized.; 353)
+[2025-11-23T19:02:13.242+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-11-23T19:02:13.254+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-23T19:02:13.257+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

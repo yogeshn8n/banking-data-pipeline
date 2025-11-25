@@ -1,0 +1,207 @@
+[2025-11-25T10:59:03.462+0000] {processor.py:161} INFO - Started process (PID=25184) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T10:59:03.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T10:59:03.465+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T10:59:03.546+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T10:59:03.703+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.702+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:SCD2_snapshots
+[2025-11-25T10:59:03.717+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.716+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:SCD2_snapshots
+[2025-11-25T10:59:03.724+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.724+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:SCD2_snapshots
+[2025-11-25T10:59:03.725+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.725+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T10:59:03.741+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.741+0000] {dag.py:3111} INFO - Creating ORM DAG for SCD2_snapshots
+[2025-11-25T10:59:03.757+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:03.757+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-25T10:59:03.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.327 seconds
+[2025-11-25T10:59:34.179+0000] {processor.py:161} INFO - Started process (PID=25246) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T10:59:34.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T10:59:34.182+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:34.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T10:59:34.225+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T10:59:34.266+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:34.266+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T10:59:34.294+0000] {logging_mixin.py:188} INFO - [2025-11-25T10:59:34.294+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-25T10:59:34.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.173 seconds
+[2025-11-25T11:00:04.850+0000] {processor.py:161} INFO - Started process (PID=25264) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:00:04.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:00:04.854+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:00:04.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:00:04.885+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:00:04.927+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:00:04.926+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:00:04.957+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:00:04.957+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-25T11:00:05.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.161 seconds
+[2025-11-25T11:00:35.059+0000] {processor.py:161} INFO - Started process (PID=25326) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:00:35.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:00:35.062+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:00:35.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:00:35.098+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:00:35.149+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:00:35.149+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:00:35.186+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:00:35.185+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-25T11:00:35.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.186 seconds
+[2025-11-25T11:01:06.121+0000] {processor.py:161} INFO - Started process (PID=25345) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:01:06.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:01:06.170+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:01:06.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:01:06.509+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:01:06.574+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:01:06.574+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:01:06.617+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:01:06.617+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-25T11:01:06.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.566 seconds
+[2025-11-25T11:01:36.932+0000] {processor.py:161} INFO - Started process (PID=25406) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:01:36.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:01:36.938+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:01:36.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:01:37.066+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:01:37.103+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:01:37.103+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:01:37.132+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:01:37.132+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-25T11:01:37.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.245 seconds
+[2025-11-25T11:02:07.446+0000] {processor.py:161} INFO - Started process (PID=25460) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:02:07.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:02:07.450+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:02:07.449+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:02:07.497+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:02:07.546+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:02:07.546+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:02:07.582+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:02:07.581+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:02:07.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.172 seconds
+[2025-11-25T11:02:37.946+0000] {processor.py:161} INFO - Started process (PID=25566) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:02:37.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:02:37.949+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:02:37.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:02:37.988+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:02:38.027+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:02:38.027+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:02:38.054+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:02:38.053+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:02:38.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.140 seconds
+[2025-11-25T11:03:08.230+0000] {processor.py:161} INFO - Started process (PID=25618) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:03:08.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:03:08.233+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:03:08.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:03:08.258+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:03:08.298+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:03:08.298+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:03:08.330+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:03:08.330+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:03:08.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.156 seconds
+[2025-11-25T11:03:38.802+0000] {processor.py:161} INFO - Started process (PID=25650) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:03:38.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:03:38.807+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:03:38.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:03:38.852+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:03:38.897+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:03:38.897+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:03:38.934+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:03:38.934+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:03:38.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.178 seconds
+[2025-11-25T11:04:09.058+0000] {processor.py:161} INFO - Started process (PID=25707) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:04:09.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:04:09.062+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:04:09.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:04:09.082+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:04:09.114+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:04:09.114+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:04:09.144+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:04:09.144+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:04:09.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.116 seconds
+[2025-11-25T11:04:39.341+0000] {processor.py:161} INFO - Started process (PID=25729) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:04:39.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:04:39.344+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:04:39.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:04:39.362+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:04:39.409+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:04:39.409+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:04:39.433+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:04:39.433+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:04:39.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.119 seconds
+[2025-11-25T11:05:09.820+0000] {processor.py:161} INFO - Started process (PID=25793) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:05:09.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:05:09.823+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:05:09.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:05:09.849+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:05:09.888+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:05:09.887+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:05:09.924+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:05:09.924+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:05:09.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.136 seconds
+[2025-11-25T11:05:40.273+0000] {processor.py:161} INFO - Started process (PID=25809) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:05:40.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:05:40.280+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:05:40.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:05:40.314+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:05:40.347+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:05:40.347+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:05:40.371+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:05:40.371+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:05:40.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.157 seconds
+[2025-11-25T11:06:10.789+0000] {processor.py:161} INFO - Started process (PID=25873) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:06:10.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:06:10.792+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:06:10.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:06:10.813+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:06:10.845+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:06:10.844+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:06:10.867+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:06:10.866+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:06:10.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.111 seconds
+[2025-11-25T11:06:41.373+0000] {processor.py:161} INFO - Started process (PID=25889) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:06:41.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:06:41.377+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:06:41.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:06:41.425+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:06:41.469+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:06:41.468+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:06:41.497+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:06:41.496+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:06:41.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.162 seconds
+[2025-11-25T11:07:11.727+0000] {processor.py:161} INFO - Started process (PID=25953) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:07:11.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:07:11.730+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:07:11.729+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:07:11.779+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:07:11.829+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:07:11.828+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:07:11.871+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:07:11.871+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:07:11.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.189 seconds
+[2025-11-25T11:07:42.027+0000] {processor.py:161} INFO - Started process (PID=25968) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:07:42.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:07:42.031+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:07:42.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:07:42.063+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:07:42.115+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:07:42.115+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:07:42.156+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:07:42.155+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:07:42.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.201 seconds
+[2025-11-25T11:08:12.411+0000] {processor.py:161} INFO - Started process (PID=26035) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:08:12.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:08:12.415+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:08:12.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:08:12.463+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:08:12.507+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:08:12.507+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:08:12.547+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:08:12.547+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:08:12.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.197 seconds
+[2025-11-25T11:08:43.132+0000] {processor.py:161} INFO - Started process (PID=26047) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:08:43.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:08:43.136+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:08:43.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:08:43.176+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:08:43.223+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:08:43.222+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:08:43.273+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:08:43.272+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:08:43.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.213 seconds
+[2025-11-25T11:09:14.021+0000] {processor.py:161} INFO - Started process (PID=26111) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:09:14.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:09:14.025+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:09:14.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:09:14.064+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:09:14.122+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:09:14.122+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:09:14.151+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:09:14.151+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:09:14.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.187 seconds
+[2025-11-25T11:09:44.552+0000] {processor.py:161} INFO - Started process (PID=26126) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:09:44.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:09:44.555+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:09:44.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:09:44.593+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:09:44.637+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:09:44.637+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:09:44.671+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:09:44.670+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:09:44.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.159 seconds
+[2025-11-25T11:10:15.257+0000] {processor.py:161} INFO - Started process (PID=26196) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:10:15.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:10:15.261+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:10:15.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:10:15.305+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:10:15.359+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:10:15.359+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:10:15.390+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:10:15.390+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:10:15.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.196 seconds
+[2025-11-25T11:10:45.750+0000] {processor.py:161} INFO - Started process (PID=26206) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:10:45.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:10:45.753+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:10:45.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:10:45.789+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:10:45.832+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:10:45.832+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:10:45.861+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:10:45.861+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:10:45.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.154 seconds
+[2025-11-25T11:11:16.301+0000] {processor.py:161} INFO - Started process (PID=26282) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:11:16.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:11:16.306+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:11:16.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:11:16.729+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:11:16.775+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:11:16.775+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:11:16.820+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:11:16.820+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:11:16.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.585 seconds
+[2025-11-25T11:11:47.304+0000] {processor.py:161} INFO - Started process (PID=26286) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:11:47.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:11:47.307+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:11:47.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:11:47.337+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:11:47.381+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:11:47.380+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:11:47.416+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:11:47.415+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:11:47.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.179 seconds
+[2025-11-25T11:12:17.896+0000] {processor.py:161} INFO - Started process (PID=26361) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:12:17.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:12:17.899+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:12:17.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:12:17.924+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:12:17.959+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:12:17.959+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:12:17.999+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:12:17.999+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:12:18.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.162 seconds
+[2025-11-25T11:12:48.114+0000] {processor.py:161} INFO - Started process (PID=26365) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:12:48.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:12:48.117+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:12:48.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:12:48.146+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:12:48.191+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:12:48.191+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:12:48.229+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:12:48.228+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:12:48.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.153 seconds
+[2025-11-25T11:13:18.497+0000] {processor.py:161} INFO - Started process (PID=26440) to work on /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:13:18.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scd_snapshots.py for tasks to queue
+[2025-11-25T11:13:18.500+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:13:18.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:13:18.540+0000] {processor.py:840} INFO - DAG(s) 'SCD2_snapshots' retrieved from /opt/airflow/dags/scd_snapshots.py
+[2025-11-25T11:13:18.573+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:13:18.573+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-25T11:13:18.600+0000] {logging_mixin.py:188} INFO - [2025-11-25T11:13:18.599+0000] {dag.py:3947} INFO - Setting next_dagrun for SCD2_snapshots to 2025-11-25 00:00:00+00:00, run_after=2025-11-26 00:00:00+00:00
+[2025-11-25T11:13:18.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scd_snapshots.py took 0.131 seconds

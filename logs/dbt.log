@@ -1,0 +1,238 @@
+[0m19:34:58.274296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB00350C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB00DDDBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB01417ED0>]}
+
+
+============================== 19:34:58.279653 | c9c3d604-73bd-4962-81d8-b66829e54e38 ==============================
+[0m19:34:58.279653 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m19:34:58.280400 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\yoges\\.dbt', 'invocation_command': 'dbt init banking_dbt', 'write_json': 'True', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m19:34:58.305393 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\yoges\.dbt
+[0m19:34:58.307457 [info ] [MainThread]: A project called banking_dbt already exists here.
+[0m19:34:58.308267 [debug] [MainThread]: Command `dbt init` succeeded at 19:34:58.308152 after 0.25 seconds
+[0m19:34:58.308547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB024D5350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB02545130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB013A1E10>]}
+[0m19:34:58.308876 [debug] [MainThread]: Flushing usage events
+[0m19:34:59.125120 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:36:50.688240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E68F90830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E69751810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E69DCFD90>]}
+
+
+============================== 19:36:50.693057 | 9d26fcf0-0876-4dc0-9dd2-023590a1b162 ==============================
+[0m19:36:50.693057 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m19:36:50.694094 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init banking_dbt', 'printer_width': '80', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\yoges\\.dbt', 'target_path': 'None', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m19:36:50.715614 [debug] [MainThread]: Starter project path: C:\Users\yoges\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m19:36:50.753279 [info ] [MainThread]: 
+Your new dbt project "banking_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:36:50.753916 [info ] [MainThread]: Setting up your profile.
+[0m19:38:02.102680 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m19:38:02.103244 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m19:38:02.103709 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:21:26.533698 [info ] [MainThread]: Profile banking_dbt written to C:\Users\yoges\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:21:26.536905 [debug] [MainThread]: Command `dbt init` succeeded at 20:21:26.536640 after 2676.07 seconds
+[0m20:21:26.537549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E061B8E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E04492330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E051B88D0>]}
+[0m20:21:26.538165 [debug] [MainThread]: Flushing usage events
+[0m20:21:27.339765 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:21:55.408186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DC82C830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DCFF9810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2DD66BD90>]}
+
+
+============================== 20:21:55.414240 | f28f1c56-db01-400f-927c-311343dce360 ==============================
+[0m20:21:55.414240 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m20:21:55.415106 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_format': 'default', 'no_print': 'None', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\yoges\\.dbt', 'invocation_command': 'dbt debug', 'printer_width': '80', 'write_json': 'True'}
+[0m20:21:55.436954 [info ] [MainThread]: dbt version: 1.11.0-rc1
+[0m20:21:55.437513 [info ] [MainThread]: python version: 3.13.9
+[0m20:21:55.438515 [info ] [MainThread]: python path: C:\Users\yoges\AppData\Local\Programs\Python\Python313\python.exe
+[0m20:21:55.439011 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m20:21:56.259561 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:21:56.259945 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:21:56.260378 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:21:56.325816 [info ] [MainThread]: Using profiles dir at C:\Users\yoges\.dbt
+[0m20:21:56.326393 [info ] [MainThread]: Using profiles.yml file at C:\Users\yoges\.dbt\profiles.yml
+[0m20:21:56.326825 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\yoges\Banking-Data-Pipeline\dbt_project.yml
+[0m20:21:56.328740 [info ] [MainThread]: adapter type: snowflake
+[0m20:21:56.329131 [info ] [MainThread]: adapter version: 1.10.3
+[0m20:21:56.329532 [info ] [MainThread]: Configuration:
+[0m20:21:56.329905 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:21:56.330326 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:21:56.330648 [info ] [MainThread]: Required dependencies:
+[0m20:21:56.330982 [debug] [MainThread]: Executing "git --help"
+[0m20:21:56.353786 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m20:21:56.354375 [info ] [MainThread]: Connection:
+[0m20:21:56.354792 [info ] [MainThread]:   account: fd58817.eu-west-1
+[0m20:21:56.355163 [info ] [MainThread]:   user: YOGESHSIVAKUMAR18
+[0m20:21:56.355561 [info ] [MainThread]:   database: banking
+[0m20:21:56.355950 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m20:21:56.356296 [info ] [MainThread]:   role: accountadmin
+[0m20:21:56.356615 [info ] [MainThread]:   schema: analytics
+[0m20:21:56.356926 [info ] [MainThread]:   authenticator: None
+[0m20:21:56.357228 [info ] [MainThread]:   oauth_client_id: None
+[0m20:21:56.357548 [info ] [MainThread]:   query_tag: None
+[0m20:21:56.357865 [info ] [MainThread]:   client_session_keep_alive: False
+[0m20:21:56.358299 [info ] [MainThread]:   host: None
+[0m20:21:56.360423 [info ] [MainThread]:   port: None
+[0m20:21:56.361062 [info ] [MainThread]:   proxy_host: None
+[0m20:21:56.361448 [info ] [MainThread]:   proxy_port: None
+[0m20:21:56.361803 [info ] [MainThread]:   protocol: None
+[0m20:21:56.362260 [info ] [MainThread]:   connect_retries: 1
+[0m20:21:56.362665 [info ] [MainThread]:   connect_timeout: None
+[0m20:21:56.363000 [info ] [MainThread]:   retry_on_database_errors: False
+[0m20:21:56.363313 [info ] [MainThread]:   retry_all: False
+[0m20:21:56.363619 [info ] [MainThread]:   insecure_mode: False
+[0m20:21:56.363931 [info ] [MainThread]:   reuse_connections: True
+[0m20:21:56.364245 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m20:21:56.364551 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m20:21:56.365105 [info ] [MainThread]: Registered adapter: snowflake=1.10.3
+[0m20:21:56.880242 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m20:22:02.265898 [debug] [MainThread]: Using snowflake connection "debug"
+[0m20:22:02.266416 [debug] [MainThread]: On debug: select 1 as id
+[0m20:22:02.266871 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:22:03.358711 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.092 seconds
+[0m20:22:03.359869 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:22:03.360418 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m20:22:03.361004 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\yoges\Banking-Data-Pipeline\dbt_project.yml> not found
+
+[0m20:22:03.361448 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m20:22:03.363093 [debug] [MainThread]: Command `dbt debug` failed at 20:22:03.362969 after 8.12 seconds
+[0m20:22:03.363498 [debug] [MainThread]: Connection 'debug' was left open.
+[0m20:22:03.363776 [debug] [MainThread]: On debug: Close
+[0m20:22:03.488032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2F9D2C640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2F98A7BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2F885E030>]}
+[0m20:22:03.488632 [debug] [MainThread]: Flushing usage events
+[0m20:22:04.296273 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:34:31.641584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273ADF70830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273AE739810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273AEDAFD90>]}
+
+
+============================== 20:34:31.646965 | 095a3e39-209e-4770-80da-a1e3c038a4f2 ==============================
+[0m20:34:31.646965 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m20:34:31.647819 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\yoges\\.dbt', 'target_path': 'None', 'printer_width': '80', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt init banking_dbt', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m20:34:31.671299 [debug] [MainThread]: Starter project path: C:\Users\yoges\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m20:34:31.688721 [info ] [MainThread]: 
+Your new dbt project "banking_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:34:31.689618 [info ] [MainThread]: Setting up your profile.
+[0m20:35:43.060547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC55A9C830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC56269810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC568DFD90>]}
+
+
+============================== 20:35:43.065319 | ce64a3ac-fdf3-4365-9338-f3b427698877 ==============================
+[0m20:35:43.065319 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m20:35:43.066118 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init banking_dbt', 'printer_width': '80', 'write_json': 'True', 'log_format': 'default', 'no_print': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\yoges\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m20:35:43.090411 [debug] [MainThread]: Starter project path: C:\Users\yoges\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m20:35:43.107992 [info ] [MainThread]: 
+Your new dbt project "banking_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:35:43.108683 [info ] [MainThread]: Setting up your profile.
+[0m20:35:59.502835 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:35:59.503250 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:35:59.503537 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:18:04.834997 [info ] [MainThread]: Profile banking_dbt written to C:\Users\yoges\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:18:04.878468 [debug] [MainThread]: Command `dbt init` succeeded at 13:18:04.876644 after 60142.18 seconds
+[0m13:18:04.882602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC72B18C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC5798D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC71B189E0>]}
+[0m13:18:04.886187 [debug] [MainThread]: Flushing usage events
+[0m13:18:05.621961 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:18:14.157435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136BD360830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136BDB29810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136BE19FD90>]}
+
+
+============================== 13:18:14.162212 | 678549dc-752f-4c71-8df8-342a55a38f23 ==============================
+[0m13:18:14.162212 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m13:18:14.162946 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\yoges\\.dbt', 'printer_width': '80', 'use_colors': 'True', 'log_format': 'default', 'target_path': 'None', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m13:18:14.186606 [info ] [MainThread]: dbt version: 1.11.0-rc1
+[0m13:18:14.187111 [info ] [MainThread]: python version: 3.13.9
+[0m13:18:14.187558 [info ] [MainThread]: python path: C:\Users\yoges\AppData\Local\Programs\Python\Python313\python.exe
+[0m13:18:14.188050 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m13:18:14.974443 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:18:14.974781 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:18:14.975027 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:18:15.026698 [info ] [MainThread]: Using profiles dir at C:\Users\yoges\.dbt
+[0m13:18:15.027272 [info ] [MainThread]: Using profiles.yml file at C:\Users\yoges\.dbt\profiles.yml
+[0m13:18:15.027623 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\yoges\Banking-Data-Pipeline\dbt_project.yml
+[0m13:18:15.029392 [info ] [MainThread]: adapter type: snowflake
+[0m13:18:15.030193 [info ] [MainThread]: adapter version: 1.10.3
+[0m13:18:15.030819 [info ] [MainThread]: Configuration:
+[0m13:18:15.031236 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:18:15.031552 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:18:15.032009 [info ] [MainThread]: Required dependencies:
+[0m13:18:15.032374 [debug] [MainThread]: Executing "git --help"
+[0m13:18:15.083909 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:18:15.084643 [debug] [MainThread]: STDERR: "b''"
+[0m13:18:15.085087 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:18:15.085739 [info ] [MainThread]: Connection:
+[0m13:18:15.086620 [info ] [MainThread]:   account: fd58817.eu-west-1
+[0m13:18:15.087224 [info ] [MainThread]:   user: YOGESHSIVAKUMAR18
+[0m13:18:15.087823 [info ] [MainThread]:   database: banking
+[0m13:18:15.088528 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m13:18:15.089273 [info ] [MainThread]:   role: accountadmin
+[0m13:18:15.089658 [info ] [MainThread]:   schema: analytics
+[0m13:18:15.090069 [info ] [MainThread]:   authenticator: None
+[0m13:18:15.090482 [info ] [MainThread]:   oauth_client_id: None
+[0m13:18:15.090896 [info ] [MainThread]:   query_tag: None
+[0m13:18:15.091307 [info ] [MainThread]:   client_session_keep_alive: False
+[0m13:18:15.091674 [info ] [MainThread]:   host: None
+[0m13:18:15.091937 [info ] [MainThread]:   port: None
+[0m13:18:15.092237 [info ] [MainThread]:   proxy_host: None
+[0m13:18:15.092539 [info ] [MainThread]:   proxy_port: None
+[0m13:18:15.092796 [info ] [MainThread]:   protocol: None
+[0m13:18:15.093110 [info ] [MainThread]:   connect_retries: 1
+[0m13:18:15.093595 [info ] [MainThread]:   connect_timeout: None
+[0m13:18:15.094212 [info ] [MainThread]:   retry_on_database_errors: False
+[0m13:18:15.095169 [info ] [MainThread]:   retry_all: False
+[0m13:18:15.096039 [info ] [MainThread]:   insecure_mode: False
+[0m13:18:15.096501 [info ] [MainThread]:   reuse_connections: True
+[0m13:18:15.096867 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m13:18:15.097311 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m13:18:15.097746 [info ] [MainThread]: Registered adapter: snowflake=1.10.3
+[0m13:18:15.389308 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m13:18:15.430538 [debug] [MainThread]: Using snowflake connection "debug"
+[0m13:18:15.430811 [debug] [MainThread]: On debug: select 1 as id
+[0m13:18:15.430986 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:18:15.823744 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.393 seconds
+[0m13:18:15.824414 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:18:15.824983 [info ] [MainThread]: [31m1 check failed:[0m
+[0m13:18:15.825586 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\yoges\Banking-Data-Pipeline\dbt_project.yml> not found
+
+[0m13:18:15.826340 [debug] [MainThread]: Command `dbt debug` failed at 13:18:15.826236 after 1.81 seconds
+[0m13:18:15.826689 [debug] [MainThread]: Connection 'debug' was left open.
+[0m13:18:15.827056 [debug] [MainThread]: On debug: Close
+[0m13:18:15.884661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136DA9D7230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136DA9DBAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136DA39E030>]}
+[0m13:18:15.885335 [debug] [MainThread]: Flushing usage events
+[0m13:18:16.522435 [debug] [MainThread]: An error was encountered while trying to flush usage events

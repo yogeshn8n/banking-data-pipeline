@@ -1,0 +1,13 @@
+banking_dbt:
+  outputs:
+    dev:
+      account: fd58817.eu-west-1
+      database: banking
+      password: Yogeshrocks@123
+      role: accountadmin
+      schema: analytics
+      threads: 4
+      type: snowflake
+      user: YOGESHSIVAKUMAR18
+      warehouse: COMPUTE_WH
+  target: dev
